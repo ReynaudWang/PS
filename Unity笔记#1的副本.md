@@ -138,7 +138,7 @@ transform.childCount:获取子物体个数
 
 transform.DetachChildren();//解除与所有子物体的父子关系
 
-Transform trans = transform.Find("Child");//获取名称为Child的子物体，注意返回值为Transform类型
+Transform trans = transform.Find("Child");//获取名称为Child的子物体，注意返回值为transform类型
 
 transform.GetChild(0);//获取第0个子物体，返回值为Transform类型
 
